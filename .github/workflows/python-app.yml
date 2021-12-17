@@ -30,7 +30,7 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test
         run: |
-         python test.py
+          python test.py
       - name: Coverage
         run: |
-         coverage run python test.py
+          coverage run test.py
